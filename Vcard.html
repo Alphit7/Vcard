@@ -1,0 +1,60 @@
+<head>
+    <title>Sylvain Jacobs' Vcard</title>
+</head>
+<body>
+    <img src="file:///home/becode/T%C3%A9l%C3%A9chargements/image.svg" id="logo" alt="logo Becode">
+    <div class="infos">
+        <p id="name">Jacobs Sylvain<br><br>
+            web Dev Junior<br><br>
+        I'm 26 and I'm a big nerd.<br> I eat motherboards for breakfast.<br> Learning how to be a web dev.</p>
+        <img src="https://media.istockphoto.com/id/1051202402/photo/portrait-of-smiling-businessman-holding-tablet-and-making-ok-sign.jpg?s=1024x1024&w=is&k=20&c=-JlonjiO_4h4CDvlGsf0VIihrG_N9cMLj9wj7heOP-U=" id="profile" alt="busines sman">
+    </div>
+    <aside class="contacts">
+        <p id="contact">Email:<br>jacobs.sylvain@gmail.com<br>Phone:<br>0493/68.93.67</p>
+    </div>
+    <div class="links">
+        <a href="https://www.youtube.com/watch?v=DLzxrzFCyOs" target="_blank"><img class="link" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/YouTube_social_white_squircle.svg/2048px-YouTube_social_white_squircle.svg.png"></a>
+        <a href="https://www.linkedin.com/in/sylvain-jacobs-0aa9a126a/" target="_blank"><img class="link" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"></a>
+        <a href="https://www.facebook.com/sylvain.jacobs.5" target="_blank"><img class="link" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"></a>
+    </aside>
+</body>
+<style>
+    .link{
+        max-width: 30px;
+        margin: 3px;
+    }
+    .links {
+        display: flex;
+    }
+    body {
+        background: linear-gradient(90deg, rgba(22, 36, 47) 0%, rgba(22, 36, 47) 32%, rgba(47, 58, 91) 32%);
+    }
+    #logo {
+        width: 200px;
+        height: 200px;
+        position: static;
+    }
+    #profile {
+        max-width: 30%;
+        border-radius: 5%;
+    }
+    .infos {
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        justify-content: center;
+        flex-wrap: nowrap;
+        position:relative;
+    }
+    p {
+        color: #61c2d0;
+        font-family: 'open sans';
+    }
+    #name {
+        background-color: rgba(22, 36, 47);
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20%;
+    }
+</style>
