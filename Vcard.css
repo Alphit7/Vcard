@@ -1,0 +1,40 @@
+    .link{
+        max-width: 30px;
+        border:0px;
+        padding:0px;
+        padding:0px;
+    }
+    .links {
+        display:flex;
+    }
+    body {
+        background: linear-gradient(90deg, rgba(22, 36, 47) 0%, rgba(22, 36, 47) 32%, rgba(47, 58, 91) 32%);
+    }
+    .becode {
+        width: 200px;
+        height: 200px;
+        position: static;
+    }
+    #profile {
+        max-width: 30%;
+        border-radius: 5%;
+    }
+    .infos {
+        display:flex;
+        flex-direction: row-reverse;
+        align-items: flex-end;
+        justify-content: center;
+        flex-wrap: nowrap;
+        position:relative;
+    }
+    p {
+        color: #61c2d0;
+        font-family: 'open sans';
+    }
+    #name {
+        background-color: rgba(22, 36, 47);
+        margin: 20px;
+        padding: 10px;
+        text-align: center;
+        border-radius: 20%;
+    }
